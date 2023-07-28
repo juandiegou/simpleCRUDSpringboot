@@ -10,7 +10,6 @@ MYSQL 8
 Gadlew
 Instalación
 Clonar el repositorio en tu máquina local:
-bash
 ```
 https://github.com/juandiegou/simpleCRUDSpringboot.git
 ```
@@ -26,28 +25,24 @@ La aplicación expone una API REST para realizar operaciones CRUD en la entidad 
 Obtener todos los usuarios:
 
 Método: GET
-bash 
 ```
 URL: http://localhost:8080/usuarios/
 ```
 Obtener un usuario por su ID:
 
 Método: GET
-bash 
 ```
 URL: http://localhost:8080/usuarios/{id}
 ```
 Crear un nuevo usuario:
 
 Método: POST
-bash 
 ```
 URL: http://localhost:8080/usuarios/
 ```
 Body (ejemplo en formato JSON):
 
 json
-bash
 ```
 {
   "nombre": "Juan Perez",
@@ -67,7 +62,7 @@ URL: http://localhost:8080/usuarios/{id}
 Body (ejemplo en formato JSON):
 
 json
-bash
+
 ```
 {
   "nombre": "Maria Lopez",
@@ -85,7 +80,6 @@ Método: PATCH
 URL: http://localhost:8080/usuarios/{id}
 Body (ejemplo en formato JSON):
 
-bash 
 ```
 {
   "nombre": "Ana Ramirez",
