@@ -12,7 +12,7 @@ Instalación
 Clonar el repositorio en tu máquina local:
 bash
 ```
-git clone https://github.com/tu-usuario/proyecto-crud-springboot.git
+https://github.com/juandiegou/simpleCRUDSpringboot.git
 ```
 Abrir el proyecto en tu IDE de preferencia (por ejemplo, IntelliJ IDEA o Eclipse).
 
